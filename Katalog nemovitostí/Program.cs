@@ -10,6 +10,7 @@ namespace Katalog_nemovitostí
     {
         static void Main(string[] args)
         {
+            int i = 1;
         }
     }
 }

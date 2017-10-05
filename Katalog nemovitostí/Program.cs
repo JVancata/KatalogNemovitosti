@@ -12,7 +12,7 @@ namespace Katalog_nemovitostí
         {
             Osoba osoba = new Osoba("Jakub", "Opelka");
             osoba.Pohlavi = "chlapák";
-            
+            osoba.Narozeni = "2000-6-20";
 
             Console.WriteLine(osoba);
         }

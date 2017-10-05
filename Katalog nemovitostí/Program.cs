@@ -10,7 +10,11 @@ namespace Katalog_nemovitostí
     {
         static void Main(string[] args)
         {
-            int i = 1;
+            Osoba osoba = new Osoba("Jakub", "Opelka");
+            osoba.Pohlavi = "chlapák";
+            
+
+            Console.WriteLine(osoba);
         }
     }
 }
